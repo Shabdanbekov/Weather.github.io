@@ -1,8 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from "vue";
 import { API_KEY, BASE_URL } from "./constants";
-import { capitalizaFirstLetter } from "./utils";
-import WeatherSummary from "./components/Weathersummary.vue";
+import WeatherSummary from "./components/WeatherSummary.vue";
 import Highlights from "./components/Highlights.vue";
 import Coords from "./components/Coords.vue";
 import Humidity from "./components/Humidity.vue";

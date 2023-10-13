@@ -20,7 +20,7 @@ const today = new Date().toLocaleDateString("en-EN", {
   <div class="summary">
     <div
       :style="`
-        background-image: url('/weather-main/${weatherInfo?.weather[0].description}.png');
+        background-image: url('/src/assets/img/weather-main/${weatherInfo?.weather[0].description}.png');
       `"
       class="pic-main"
     ></div>
